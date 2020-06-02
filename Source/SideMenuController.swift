@@ -320,7 +320,7 @@ open class SideMenuController: UIViewController, UIGestureRecognizerDelegate {
     
     // MARK: - Interaction -
     
-    func animate(toReveal reveal: Bool){
+    public func animate(toReveal reveal: Bool){
         
         transitionInProgress = true
         sidePanelVisible = reveal
